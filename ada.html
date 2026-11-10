@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <title> Ada Augusta King - Ada Lovelace </title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Augusta King - Ada Lovelace</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 id="titulo">Mulheres da Tecnologia</h1>
+        <button class="btn-menu" id="btn-menu" aria-label="Abrir Menu" aria-expanded="false">
+            <span class="hamburguer"></span>
+        </button>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ada.html">Ada</a></li>
+                <li><a href="grace.html">Grace</a></li>
+                <li><a href="margareth.html">Margaret</a></li>
+                <li><a href="dorothy.html">Dorothy</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
-        <header class="cabecalho">
-            <h1 id="titulo"> Ada Augusta King </h1>
-        </header>
+    <main class="conteudo-principal">
+        <div class="navegacao-voltar">
+            <a href="index.html" class="btn-voltar">&larr; Voltar para o início</a>
+        </div>
 
-            <nav class="menu">
-        <ul>
-            <li> <a href="index.html"> index </a></li>
-            <li> <a href="grace.html"> Grace </a> </li>
-            <li> <a href="margareth.html"> margareth </a> </li>
-            <li> <a href="dorothy.html"> Dorothy </a></li>
-        </ul>
-    </nav>
+        <article class="perfil-conteudo">
+            <div class="perfil-coluna-imagem">
+                <img src="ada.jpeg" alt="Ada Lovelace" class="imgcentro">[cite: 1]
+                <div class="fatos-rapidos">
+                    <h4>Fatos Rápidos</h4>
+                    <ul>
+                        <li><strong>Nascimento:</strong> 1815 (Inglaterra)[cite: 1]</li>
+                        <li><strong>Falecimento:</strong> 1852[cite: 1]</li>
+                        <li><strong>Área:</strong> Matemática e Literatura[cite: 1]</li>
+                        <li><strong>Legado:</strong> Criou o 1º algoritmo processado por máquinas[cite: 1]</li>
+                    </ul>
+                </div>
+            </div>
 
-      
-        <img src="ada.jpeg" alt="Ada Lovelace" class="imgcentro">
-        <p class="texto">Ada Augusta King, Condessa de Lovelace (Byron, 1815 - 1852), foi uma matemática e escritora inglesa. Ela foi a primeira a reconhecer que máquinas poderiam ter aplicações além de puro calculos e criou primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage.</p>
+            <div class="bio">
+                <div class="perfil-cabecalho">
+                    <span class="tag-perfil">Primeira Programadora da História</span>
+                    <h2 class="perfil-titulo">Ada Augusta King</h2>[cite: 1]
+                </div>
 
-        <p class="texto">Durante o período em que esteve envolvida com o projeto de Babbage, ela desenvolveu os algoritmos que permitiriam a máquina computar <br> os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica.</p> 
+                <p class="texto">Ada Augusta King, Condessa de Lovelace (Byron, 1815 - 1852), foi uma matemática e escritora inglesa. Ela foi a primeira a reconhecer que máquinas poderiam ter aplicações além de puro calculos e criou primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage.[cite: 1]</p>
+                
+                <div class="destaque-bio">
+                    "Criou o primeiro programa de computador em papel, vislumbrando o futuro dos computadores quando ninguém mais acreditava."
+                </div>
 
-        <p class="texto">Por esse trabalho é considerada a primeira programadora de computadores de toda a história. Vale lembrar que ela escreveu o programa em um papel, com as instruções de como programar a máquina analítica, que nunca chegou a ser construída em seu tempo de vida. A Ada é até mesmo uma referência da cultura pop. </p>
+                <p class="texto">Durante o período em que esteve envolvida com o projeto de Babbage, ela desenvolveu os algoritmos que permitiriam a máquina computar os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica.[cite: 1]</p>
+                <p class="texto">Por esse trabalho é considerada a primeira programadora de computadores de toda a história. Vale lembrar que ela escreveu o programa em um papel, com as instruções de como programar a máquina analítica, que nunca chegou a ser construída em seu tempo de vida. A Ada é até mesmo uma referência da cultura pop.[cite: 1]</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p><b>Desenvolvido por:</b> <i>Cauan Stipp</i>[cite: 7]</p>
+        <p><b>Contato:</b> <i>Cauanst@gmail.com | (43) 9999-9999</i>[cite: 7]</p>
+        <p><i>Manoel Ribas - Paraná</i>[cite: 7]</p>
+    </footer>
+</body>
 </html>
