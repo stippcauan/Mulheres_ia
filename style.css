@@ -1,0 +1,74 @@
+body { 
+    background-color: rgb(22, 228, 159);
+    font-size: 16px;
+}
+
+.cabecalho{
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+
+#titulo {
+
+}
+
+p {
+    
+}
+
+.imgcentro{
+    height: 500px;
+    width: 400px;
+}
+
+
+ul{
+    font-size: 16px;
+}
+
+li{
+    display: inline-block;
+   
+}
+
+li a{
+    font-size: 50px;
+
+}
+
+button{
+    font-size: 16px;
+    color: rgb(255, 0, 132);
+}
+
+footer{
+     position: fixed;
+     bottom: 0;
+     background-color: yellow;
+     font-size: 30px;
+     width: 100%;
+     text-align: center;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: rgb(42, 61, 165);
+    text-align: end;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.texto{
+    flex: 1;
+    align-self: center;
+    padding: 0 20px;
+    max-width: 70ch;
+}
